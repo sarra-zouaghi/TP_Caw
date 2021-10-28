@@ -1,0 +1,39 @@
+img {
+    border: 1px red solid;
+}
+h1{
+    background-color: black;
+}
+h1,h2 {
+    color: gray;
+}
+.s>h2{
+    border:  solid green;
+}
+#mon>span {
+    color: pink;
+}
+.m >div span {
+    border: solid 2px red;
+}
+.m >div>span{
+    background-color: yellow;
+}
+.w>h2:hover{
+   color:green;
+}
+.m>h2:hover{
+color: red;
+}
+.t>h2:hover{
+    color: red;
+}
+li:first-of-type{
+    font-weight: bold;
+}
+li:nth-child(2){
+    color: red;
+}
+li:nth-of-type(9){
+    color: blue;
+}
